@@ -34,7 +34,7 @@ app.get('/test', function (req, res) {
     res.send(mockAPIResponse)
 })
 
-app.post('/submit-url', (req, res) => {
+app.post('https://naughty-brown-d13208.netlify.app/submit-url', (req, res) => {
     textapi.sentiment({ url: req.body.url }, (error, result) => {
           if(error) {
             console.log('Error during Aylien request')
