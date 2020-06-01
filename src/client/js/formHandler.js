@@ -12,7 +12,7 @@ function handleSubmit(event) {
 
     console.log("::: Form has been Submitted :::")
 
-    fetch('https://naughty.com/submit-url', {
+    fetch('/submit-url', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
