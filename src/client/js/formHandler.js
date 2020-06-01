@@ -12,7 +12,7 @@ function handleSubmit(event) {
 
     console.log("::: Form has been Submitted :::")
 
-    fetch('/submit-url', {
+    fetch('https://naughty-brown-d13208.netlify.app/submit-url', {
       method: 'POST',
       credentials: "same-origin",
       headers: {
